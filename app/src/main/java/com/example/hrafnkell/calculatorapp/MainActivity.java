@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         //the device vibrates
         if(m_use_vibrator){
             m_vibrator.vibrate(50);
-            Toast.makeText(getApplicationContext(),"Vibrate...",Toast.LENGTH_SHORT).show();
+            //Toast.makeText(getApplicationContext(),"Vibrate...",Toast.LENGTH_SHORT).show();
         }
 
         Button buttonView = (Button) view;
